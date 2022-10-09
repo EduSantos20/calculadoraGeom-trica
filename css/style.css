@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title-header {
+  text-align: center;
+  padding: 10px;
+}
+.title-header .title {
+  color: hsl(200deg 72% 57%);
+}
+main {
+  background-color: rgb(163, 207, 230);
+  box-shadow: 0 0 1.5rem rgba(155, 47, 47, 0.1);
+  margin: 0 auto;
+  max-width: 1080px;
+  min-height: 100vh;
+  width: 100%;
+}
+.title {
+  font-family: 'Lucida Sans', sans-serif;
+}
+.container {
+  display: grid;
+  gap: 20px;
+  margin: 0 10px;
+}
+.main-container img {
+  width: 128px;
+}
+.main-container {
+  display: flex;
+  padding: 10px;
+}
+.title-text {
+  display: grid;
+  margin-left: 20px;
+  font-family: 'Lucida Sans', sans-serif;
+  align-content: center;
+  font-weight: bold;
+}
+.title-text input {
+  height: 40px;
+  width: 50px;
+  text-align: center;
+  border: 1px solid rgb(0, 153, 255);
+}
+.description {
+  margin-left: 20%;
+  font-family: 'Lucida Sans', sans-serif;
+  font-weight: bold;
+}
+.descriptionQuadrado {
+  margin-left: 22%;
+  font-family: 'Lucida Sans', sans-serif;
+  font-weight: bold;
+}
+.descriptionTrapezio {
+  margin-left: 15%;
+  font-family: 'Lucida Sans', sans-serif;
+  font-weight: bold;
+}
+.descriptionCirculo {
+  margin-left: 25%;
+  font-family: 'Lucida Sans', sans-serif;
+  font-weight: bold;
+}
+.result {
+  margin-left: 50%;
+  font-family: 'Lucida Sans', sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 40px;
+}
+.btn {
+  margin-top: 10px;
+  max-width: 10vh;
+  height: 25px;
+  border-radius: 10px 0;
+  background-color: hsl(200deg 72% 57%);
+  border: 1px solid rgb(0, 153, 255);
+  color: white;
+}

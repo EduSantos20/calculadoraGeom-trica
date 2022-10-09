@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Geométrica</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="title-header">
+        <h1 class="title">Calculadora Geométrica</h1>
+      </div>
+      <section class="container">
+        <div class="main-container">
+          <div>
+            <h1 class="title">Triângulo</h1>
+            <img src="img/Triangle_34546.png" alt="" />
+          </div>
+
+          <div class="title-text">
+            <label for="">Qual a base do triângulo:</label>
+            <input type="number" name="name" id="valor1" />
+
+            <label for="">Qual a altura do triângulo:</label>
+            <input type="number" name="name" id="valor2" />
+
+            <button class="btn" type="button" onclick="Triangulo()">
+              Calcular
+            </button>
+          </div>
+
+          <div class="description">
+            <div>A área do Triangulo:</div>
+            <div class="result" id="result">0</div>
+          </div>
+        </div>
+
+        <div class="main-container">
+          <div>
+            <h1 class="title">Retângulo</h1>
+            <img src="img/rectangle256_25205.png" alt="" />
+          </div>
+          <div class="title-text">
+            <label for="">Qual a base do retângulo:</label>
+            <input type="number" name="name" id="base" />
+
+            <label for="">Qual a altura do retângulo:</label>
+            <input type="number" name="name" id="altura" />
+            <button class="btn" type="button" onclick="Retangulo()">
+              Calcular
+            </button>
+          </div>
+          <div class="description">
+            <div>A área do Retângulo:</div>
+            <div class="result" id="resultRetangulo">0</div>
+          </div>
+        </div>
+
+        <div class="main-container">
+          <div>
+            <h1 class="title">Quadrado</h1>
+            <img src="img/square256_25198.png" alt="" />
+          </div>
+          <div class="title-text">
+            <label for="">Qual área do quadrado:</label>
+            <input type="number" name="name" id="baseQuadrado" />
+            <button class="btn" type="button" onclick="Quadrado()">
+              Calcular
+            </button>
+          </div>
+          <div class="descriptionQuadrado">
+            <div>A área do Quadrado:</div>
+            <div class="result" id="resultQuadrado">0</div>
+          </div>
+        </div>
+
+        <div class="main-container">
+          <div>
+            <h1 class="title">Trapézio</h1>
+            <img src="img/trapezeinvertedoutlinedshape_80761.png" alt="" />
+          </div>
+          <div class="title-text">
+            <label for="">Qual é a base maior do trapézio:</label>
+            <input type="number" name="name" id="baseMaior" />
+
+            <label for="">Qual é a base menor do trapézio:</label>
+            <input type="number" name="name" id="baseMenor" />
+            <label for="">Qual á altura do trapézio:</label>
+            <input type="number" name="name" id="alturaTrapezio" />
+            <button class="btn" type="button" onclick="Trapezio()">
+              Calcular
+            </button>
+          </div>
+          <div class="descriptionTrapezio">
+            <div>A área do Trapézio:</div>
+            <div class="result" id="resultTrapezio">0</div>
+          </div>
+        </div>
+
+        <div class="main-container">
+          <div>
+            <h1 class="title">Círculo</h1>
+            <img src="img/Circle_34541.png" alt="" />
+          </div>
+          <div class="title-text">
+            <label for="">Qual o raio do Círculo:</label>
+            <input type="number" name="name" id="raio" />
+            <button class="btn" type="button" onclick="Circulo()">
+              Calcular
+            </button>
+          </div>
+          <div class="descriptionCirculo">
+            <div>A área do Círculo:</div>
+            <div class="result" id="resultCirculo">0</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
